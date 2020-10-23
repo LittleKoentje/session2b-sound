@@ -58,7 +58,7 @@ for condition in conditions:
 
     for i in range(len(word_list)):
          word_normalised = match_target_amplitude(word_list[i], -6)
-         word_normalised.export(os.path.join(condition_folder,(stimuli[condition][i]) + ".wav"))
+         word_normalised.export(os.path.join(condition_folder, stimuli[condition][i] + ".wav"))
 
 # Some hints:
 # 1. Where are the stimuli?
